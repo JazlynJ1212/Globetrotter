@@ -1,0 +1,154 @@
+#banner{
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-image: url("./assets/image1-11-1440x960.jpg"); 
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 130px;
+    font-size:28px;
+    
+}
+
+
+body{
+    background-color:#E2E6EB ;
+    text-align:center;
+    color:black;
+    margin:0px 0px 50px 0px;
+    padding:0px;
+    align-items: center;
+    }
+
+
+#navigation{
+    font-family:'Georgia';
+    font-size: larger;
+    background-color: orange;
+    padding: 50px;
+    margin:0px;
+    display:flex;
+    display:row;
+    justify-content:space-around;
+
+
+}
+
+
+
+#navigation a{
+    color: black;
+    padding:1px;
+
+}
+
+.EntireGallery{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 30px 20px;
+} 
+#Photos{
+    border:thick double black;
+
+}
+
+
+.AttractionContainer{
+    /* display:flex;
+    flex-direction:column;
+    justify-content: center; */
+
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex:1px;
+    justify-content: center;
+    /* padding:100px; */
+    padding: 0px 100px 100px 100px;
+
+}
+
+#Attraction{
+    border: 1px solid black ;
+    border-radius: 25px;
+    margin: 0px 20px 20px 20px;
+    padding:60px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.FoodContainer{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex:1px;
+    justify-content: space-around;
+    /* padding:100px; */
+    row-gap:20px;
+    padding: 0px 100px 100px;
+
+
+
+}
+#Restaurant{
+    border: 1px solid black ;
+    border-radius: 25px;
+    margin: 0px 20px 20px 20px;
+    
+ }
+ #Home{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   
+    
+ } 
+
+
+ #HomeImage img {
+    width: 750px;
+    height: 650px;
+    display:flex;
+    margin: 0px 50px 50px 50px;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+@media screen and (max-width:760px){
+    #navigation{
+        display:flex;
+        flex-direction:column;
+        padding:15px;
+    }
+    #AttractionContainer{
+        padding:10px;
+        margin:0px 20px 20px 20px
+        
+
+    }
+    #Attraction{
+        margin: 0px 10px 20px 10px;
+    padding: 10px;  
+    }
+    
+
+    #FoodContainer{
+        margin:0px 20px 20px 20px
+    }
+
+    #HomeImage img{
+        width:350px;
+        height:250px; 
+        display:flex;
+        justify-content: center;
+    }
+}
+    
+
+
